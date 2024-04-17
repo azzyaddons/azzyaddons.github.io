@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.rumble" name="Rumble" version="1.6.1" provider-name="azzy9">
+	<requires>
+		<import addon="script.module.simplejson"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch rumble videos.</summary>
+		<summary lang="pt_br">Assista videos do rumble.</summary>
+		<description lang="en">Watch uncensored videos with rumble.</description>
+		<description lang="pt_br">Asssista videos sem censura com o rumble.</description>
+		<disclaimer lang="en">We are not associated with rumble.com or the Kodi Team</disclaimer>
+		<disclaimer lang="pt_br">Não somos associados à rumble.com nem com o Kodi Team</disclaimer>
+		<website>https://github.com/azzy9/plugin.video.rumble</website>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>- v1.6.1 - Add Upcoming into upcoming video titles, Autoplay if only 1 quality, add m3u8 handler for live streams
+- v1.6.0 - Remove view_set method, change how cat_video gets video data, Remove hardcoded categories, add Categories section, add Live Stream Section, add info_label to include duration and year, Fix user search and battle leaderboard REGEX
+- v1.5.4 - Fix search, Fix following users</news>
+	</extension>
+</addon>
