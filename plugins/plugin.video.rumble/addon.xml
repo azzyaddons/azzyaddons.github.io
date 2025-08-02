@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.rumble" name="Rumble" version="1.8.5" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.9.0" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.six"/>
+		<import addon="inputstream.adaptive"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="main.py">
 		<provides>video</provides>
